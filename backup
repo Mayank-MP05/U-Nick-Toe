@@ -1,0 +1,10 @@
+        <div class="fullScreen">
+            <img src="./img/cover.jpg">
+            <ul class="list-group">
+                <li class="list-group-item">Tic Tac Toe Unlimted</li>
+                <li class="list-group-item">Single Player</li>
+                <li class="list-group-item">Multiplayer</li>
+                <li class="list-group-item">Settings</li>
+                <li><img src="./img/cover.jpg"></li>
+            </ul>
+        </div>

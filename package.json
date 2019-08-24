@@ -20,7 +20,11 @@
       "cordova-plugin-whitelist": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "browser"
     ]
+  },
+  "dependencies": {
+    "cordova-browser": "^6.0.0"
   }
 }
