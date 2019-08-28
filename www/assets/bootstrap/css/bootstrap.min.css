@@ -204,7 +204,10 @@ caption {
     text-align: left;
     caption-side: bottom
 }
-
+.width{
+    width:100%;
+    margin:15px 0;
+}
 th {
     text-align: center
 }
@@ -1587,7 +1590,7 @@ pre code {
 
 .table td,
 .table th {
-    padding: .75rem;
+    /*padding: .75rem;*/
     vertical-align: top;
     border-top: 1px solid #dee2e6
 }
@@ -5570,7 +5573,7 @@ a.badge-dark:focus {
     padding: .75rem 1.25rem;
     margin-bottom: -1px;
     background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, .125)
+    /*border: 1px solid rgba(0, 0, 0, .125)*/
 }
 
 .list-group-item:first-child {
@@ -10310,4 +10313,12 @@ a.text-dark:hover {
         color: inherit;
         border-color: #dee2e6
     }
+}
+@font-face {
+    font-family: "funky";
+    src: url("./../../../font/kirbyss.ttf") format("truetype");
+}
+
+*{
+    /*font-family: "funky";*/
 }
